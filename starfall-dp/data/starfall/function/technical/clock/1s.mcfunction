@@ -1,0 +1,1 @@
+schedule function starfall:technical/clock/1s 1s

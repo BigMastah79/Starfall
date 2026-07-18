@@ -1,0 +1,13 @@
+{
+    "starfall.ui.title": "Starfall",
+    "starfall.ui.update": "Divine Intervention",
+    "starfall.ui.version": "v2.0",
+    
+    "starfall.item.star_fragment": "Star Fragment",
+    
+    "starfall.entity.outlander": "Outlander",
+    "starfall.entity.glimmer": "Glimmer",
+    "starfall.entity.gloom": "Gloom",
+    
+    "starfall.trim_material.star": "Star Material"
+}
