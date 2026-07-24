@@ -1,0 +1,1 @@
+execute unless predicate starfall:debris_inelgible run function starfall:gameplay/space_debris/player/start

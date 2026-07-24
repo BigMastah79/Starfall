@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.starfall.tarot_card"
+            },
+            "minecraft:lore": [
+              [
+                {
+                  "text": "0 ",
+                  "color": "white",
+                  "font": "starfall:icon",
+                  "italic": false
+                },
+                {
+                  "translate": "ui.starfall.title",
+                  "color": "white",
+                  "font": "starfall:tooltip",
+                  "italic": false
+                }
+              ],
+              [
+                {
+                  "translate": "arcana.starfall.fool",
+                  "color": "gray",
+                  "font": "minecraft:default",
+                  "italic": false
+                }
+              ],
+              [
+                {
+                  "translate": "arcana.starfall.fool.description",
+                  "color": "dark_gray",
+                  "font": "minecraft:default",
+                  "italic": false
+                }
+              ],
+              [
+                {
+                  "translate": "arcana.starfall.fool.quote",
+                  "color": "dark_gray",
+                  "font": "minecraft:default",
+                  "italic": truew
+                }
+              ]
+            ],
+            "minecraft:custom_data": {
+              "starfall": {
+                "id": "fool_tarot_card",
+                "tarot_card": {
+                  "arcana": "fool"
+                }
+              }
+            },
+            "minecraft:item_model": "starfall:tarot_card/fool",
+            "minecraft:tooltip_style": "starfall:main",
+            "minecraft:rarity": "uncommon",
+            "minecraft:max_stack_size": 1,
+            "!minecraft:consumable": {},
+            "!minecraft:food": {}
+          }
+        }
+      ]
+    }
+  ]
+}
